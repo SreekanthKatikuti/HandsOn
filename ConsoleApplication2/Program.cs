@@ -15,7 +15,7 @@ namespace ConsoleApplication2
         static void Main(string[] args)
         {
             Class1 n = new Class1();
-            string sourcepath = @"C:\Project";
+            string sourcepath = @"C:\Project\Input";
             string destinationpath = @"C:\Project\Output\";
             string[] Filenames = Directory.GetFiles(sourcepath);
             int len = Directory.GetFiles(destinationpath).Length;
