@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope release="2" revision="2.1.2.0" xmlns="http://www.adp.com/MAPCloud/Envelope" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <soap:Header>
+    <CreationDateTime>2016-04-14T20:13:36Z</CreationDateTime>
+    <Sender>
+      <DSPArea>
+        <SystemIdentifier>C178788</SystemIdentifier>
+        <SystemVersion>SY830C</SystemVersion>
+        <CreatorNameCode>AD</CreatorNameCode>
+        <SenderNameCode>Elite</SenderNameCode>
+        <GroupId>BMW</GroupId>
+        <Company>1</Company>
+        <Account>BMW-S</Account>
+        <Make>BMW|MINI</Make>
+      </DSPArea>
+      <PartnerArea>
+        <SenderNameCode>BM</SenderNameCode>
+        <DealerNumber>6577501</DealerNumber>
+      </PartnerArea>
+    </Sender>
+    <Destination>
+      <DestinationNameCode>BM</DestinationNameCode>
+      <DealerNumber>6577501</DealerNumber>
+    </Destination>
+    <Message>
+      <GUID>C178788-00000000002826</GUID>
+      <BODID>505754a9-3691-4d2c-a493-88cb31994ef2</BODID>
+      <MessageType>ProcessServiceAppointment</MessageType>
+      <TransactionName>ServiceAppointment</TransactionName>
+      <Status>DMS request</Status>
+      <ReferenceID>1539860152364</ReferenceID>
+    </Message>
+  </soap:Header>
+  <soap:Body>
+    <Payload>
+      <ProcessServiceAppointment releaseID="5.5.4" systemEnvironmentCode="Test" languageCode="en-US" xmlns="http://www.starstandard.org/STAR/5" xmlns:oagis="http://www.openapplications.org/oagis/9">
+        <ApplicationArea>
+          <Sender>
+            <LogicalID>C178788</LogicalID>
+            <ComponentID>BW507 AQ519B AD516</ComponentID>
+            <TaskID>PUSH*SendServiceAppointment</TaskID>
+            <ReferenceID>1539860152364</ReferenceID>
+            <CreatorNameCode>AD</CreatorNameCode>
+            <SenderNameCode>AD</SenderNameCode>
+            <DealerNumberID>6577501</DealerNumberID>
+            <StoreNumber>3</StoreNumber>
+            <AreaNumber>BMW-S</AreaNumber>
+            <DealerCountryCode>US</DealerCountryCode>
+            <LanguageCode>en-US</LanguageCode>
+            <SystemVersion>CORA-6 C2.02</SystemVersion>
+            <PartyID>BM6577501</PartyID>
+            <LocationID />
+            <ServiceID />
+            <NounCountNumeric>1</NounCountNumeric>
+          </Sender>
+          <CreationDateTime>2016-04-14T20:13:35Z</CreationDateTime>
+          <BODID>505754a9-3691-4d2c-a493-88cb31994ef2</BODID>
+          <Destination>
+            <DestinationNameCode>BM</DestinationNameCode>
+            <DealerNumberID schemeAgencyID="BM" schemeAgencyName="BMW">6577501</DealerNumberID>
+            <StoreNumber>3</StoreNumber>
+            <AreaNumber>BMW-S</AreaNumber>
+            <DealerTargetCountry>US</DealerTargetCountry>
+            <PartyReceiverID>BM6577501</PartyReceiverID>
+            <ServiceMessageID>ServiceAppointmentApp</ServiceMessageID>
+          </Destination>
+        </ApplicationArea>
+        <ProcessServiceAppointmentDataArea>
+          <Process>
+            <oagis:ActionCriteria>
+              <oagis:ActionExpression actionCode="Add" />
+            </oagis:ActionCriteria>
+          </Process>
+          <ServiceAppointment xmlns="http://www.starstandard.org/STAR/5" xmlns:oagis="http://www.openapplications.org/oagis/9">
+            <ServiceAppointmentHeader>
+              <DocumentDateTime>2016-04-14T20:13:32Z</DocumentDateTime>
+              <DocumentIdentificationGroup>
+                <DocumentIdentification>
+                  <DocumentID>1539860152364-1763747604</DocumentID>
+                </DocumentIdentification>
+              </DocumentIdentificationGroup>
+              <DealerParty>
+                <PartyID>6577501</PartyID>
+                <SpecifiedOrganization>
+                  <CompanyName>BMW OF MANHATTAN, INC.</CompanyName>
+                  <PrimaryContact>
+                    <PersonName>SALAMON-MICHAEL-6</PersonName>
+                    <ContactMethodTypeCode>N/A</ContactMethodTypeCode>
+                  </PrimaryContact>
+                  <PostalAddress>
+                    <LineOne>555 WEST 57TH STREET</LineOne>
+                    <CityName>NEW YORK NY</CityName>
+                    <Postcode>10019</Postcode>
+                  </PostalAddress>
+                </SpecifiedOrganization>
+              </DealerParty>
+              <ProviderParty>
+                <PartyID>AD</PartyID>
+                <SpecifiedOrganization>
+                  <CompanyName>AUTOMATIC DATA PROCESSING</CompanyName>
+                </SpecifiedOrganization>
+              </ProviderParty>
+              <OwnerParty>
+                <DealerManagementSystemID>4*9179296585</DealerManagementSystemID>
+                <SpecifiedPerson>
+                  <DealerManagementSystemID>4*9179296585</DealerManagementSystemID>
+                  <GivenName>DAVID</GivenName>
+                  <MiddleName>V</MiddleName>
+                  <FamilyName>LEDESMA</FamilyName>
+                  <BirthDate>1943-02-01</BirthDate>
+                  <ResidenceAddress>
+                    <AddressType>Home</AddressType>
+                    <LineOne>434 E 52ND ST</LineOne>
+                    <LineTwo>line two added</LineTwo>
+                    <CityName>NEW YORK</CityName>
+                    <CountryID>US</CountryID>
+                    <Postcode>10022-6487</Postcode>
+                    <StateOrProvinceCountrySub-DivisionID>NY</StateOrProvinceCountrySub-DivisionID>
+                  </ResidenceAddress>
+                  <TelephoneCommunication>
+                    <ChannelCode>Telephone</ChannelCode>
+                    <CompleteNumber>2127553837</CompleteNumber>
+                    <LocalNumber>4527553837</LocalNumber>
+                    <UseCode>Home</UseCode>
+                  </TelephoneCommunication>
+                  <TelephoneCommunication>
+                    <ChannelCode>Telephone</ChannelCode>
+                    <CompleteNumber>2127553837</CompleteNumber>
+                    <LocalNumber>2327553837</LocalNumber>
+                    <UseCode>Work</UseCode>
+                  </TelephoneCommunication>
+                  <TelephoneCommunication>
+                    <ChannelCode>Telephone</ChannelCode>
+                    <CompleteNumber>2127553837</CompleteNumber>
+                    <LocalNumber>0227553837</LocalNumber>
+                    <UseCode>Mobile</UseCode>
+                  </TelephoneCommunication>
+                  <URICommunication>
+                    <URIID>jbannayan@cdk.com</URIID>
+                    <ChannelCode>Email</ChannelCode>
+                    <UseCode>Work</UseCode>
+                  </URICommunication>
+                  <ContactMethodTypeCode>N/A</ContactMethodTypeCode>
+                </SpecifiedPerson>
+                <Privacy>
+                  <PrivacyIndicator>false</PrivacyIndicator>
+                  <PrivacyTypeString>BlockDataShare</PrivacyTypeString>
+                </Privacy>
+                <Privacy>
+                  <PrivacyIndicator>false</PrivacyIndicator>
+                  <PrivacyTypeString>BlockMail</PrivacyTypeString>
+                </Privacy>
+                <Privacy>
+                  <PrivacyIndicator>false</PrivacyIndicator>
+                  <PrivacyTypeString>BlockEmail</PrivacyTypeString>
+                </Privacy>
+                <Privacy>
+                  <PrivacyIndicator>false</PrivacyIndicator>
+                  <PrivacyTypeString>BlockPhone</PrivacyTypeString>
+                </Privacy>
+                <ManufacturerCustomerID>9179296585</ManufacturerCustomerID>
+              </OwnerParty>
+              <Co-OwnerParty>
+                <DealerManagementSystemID>4*9179296585</DealerManagementSystemID>
+                <SpecifiedPerson>
+                  <GivenName>MICHELLE</GivenName>
+                  <MiddleName>D</MiddleName>
+                  <FamilyName>SMITH</FamilyName>
+                  <ResidenceAddress>
+                    <LineOne>434 E 52ND ST</LineOne>
+                    <CityName>NEW YORK</CityName>
+                    <CountryID>US</CountryID>
+                    <Postcode>10022-6487</Postcode>
+                    <StateOrProvinceCountrySub-DivisionID>NY</StateOrProvinceCountrySub-DivisionID>
+                  </ResidenceAddress>
+                </SpecifiedPerson>
+                <Privacy>
+                  <PrivacyIndicator>false</PrivacyIndicator>
+                  <PrivacyTypeString>BlockDataShare</PrivacyTypeString>
+                </Privacy>
+                <Privacy>
+                  <PrivacyIndicator>false</PrivacyIndicator>
+                  <PrivacyTypeString>BlockMail</PrivacyTypeString>
+                </Privacy>
+                <Privacy>
+                  <PrivacyIndicator>false</PrivacyIndicator>
+                  <PrivacyTypeString>BlockEmail</PrivacyTypeString>
+                </Privacy>
+                <Privacy>
+                  <PrivacyIndicator>false</PrivacyIndicator>
+                  <PrivacyTypeString>BlockPhone</PrivacyTypeString>
+                </Privacy>
+              </Co-OwnerParty>
+              <ServiceAppointmentVehicleLineItem>
+                <Vehicle>
+                  <Model>740IL</Model>
+                  <ModelYear>2001</ModelYear>
+                  <MakeString>BMW</MakeString>
+                  <SaleClassCode>Used</SaleClassCode>
+                  <VehicleID>WBAGH83421DP27460</VehicleID>
+                  <ModelDescription>model description added for testing</ModelDescription>
+                </Vehicle>
+                <BrandedInfo />
+                <OriginalSoldDate>2006-01-30</OriginalSoldDate>
+                <DeliveryDistanceMeasure unitCode="mile">76000</DeliveryDistanceMeasure>
+                <VehicleStockString>U9677FC</VehicleStockString>
+                <LicenseNumberString>U9677FC</LicenseNumberString>
+                <InDistanceMeasure unitCode="mile">75829</InDistanceMeasure>
+              </ServiceAppointmentVehicleLineItem>
+            </ServiceAppointmentHeader>
+            <ServiceAppointmentDetail>
+              <Appointment>
+                <AppointmentDateTime>2011-11-11T08:00:00Z</AppointmentDateTime>
+                <AppointmentLocation>DEALER</AppointmentLocation>
+                <AppointmentNotes>CREATED 2010-02-26 04:08:00PM TAKEN BY BRETT DAVIS TEST</AppointmentNotes>
+                <AppointmentStatus>R</AppointmentStatus>
+                <AppointmentAction>APPOINTMENT DELETED - ROLLED INTO REPAIR ORDER # 647517</AppointmentAction>
+                <AlternateTransportation>NONE REQUIRED</AlternateTransportation>
+                <EndAppointmentDateTime>2011-11-11T16:30:00Z</EndAppointmentDateTime>
+                <DesiredPickupDateTime>2011-11-11T16:30:00Z</DesiredPickupDateTime>
+                <DropOffDateTime>2011-11-11T08:00:00Z</DropOffDateTime>
+                <OpenAppointmentDateTime>2011-11-11T08:00:00Z</OpenAppointmentDateTime>
+                <RequestedService>
+                  <JobNumberString>A</JobNumberString>
+                  <JobTypeString>CUSTOMER PAY</JobTypeString>
+                  <ServiceLaborScheduling>
+                    <LaborOperationID>LOF</LaborOperationID>
+                    <LaborOperationDescription>Perform BMW oil service</LaborOperationDescription>
+                    <LaborAllowanceHoursNumeric>0.6</LaborAllowanceHoursNumeric>
+                    <LaborNarrative />
+                    <FailureCodes />
+                    <LaborOperationIdTypeCode>C</LaborOperationIdTypeCode>
+                  </ServiceLaborScheduling>
+                </RequestedService>
+                <RequestedService>
+                  <JobNumberString>B</JobNumberString>
+                  <JobTypeString>CUSTOMER PAY</JobTypeString>
+                  <ServiceLaborScheduling>
+                    <LaborOperationID>DOF</LaborOperationID>
+                    <LaborOperationDescription>test</LaborOperationDescription>
+                    <LaborAllowanceHoursNumeric>0.6</LaborAllowanceHoursNumeric>
+                    <LaborNarrative />
+                    <FailureCodes />
+                    <LaborOperationIdTypeCode>C</LaborOperationIdTypeCode>
+                  </ServiceLaborScheduling>
+                </RequestedService>
+                <ServiceAdvisorParty>
+                  <SpecifiedPerson>
+                    <ID>1055</ID>
+                    <GivenName>SALAMON-MICHAEL-6</GivenName>
+                  </SpecifiedPerson>
+                </ServiceAdvisorParty>
+                <RequestedAppointmentPeriod>
+                  <StartDateTime>2011-11-11T08:00:00Z</StartDateTime>
+                  <EndDateTime>2011-11-11T16:30:00Z</EndDateTime>
+                </RequestedAppointmentPeriod>
+                <AppointmentType>CUSTOMER PAY</AppointmentType>
+                <ServiceAppointmentMadeDateTime>2010-02-26T16:42:32Z</ServiceAppointmentMadeDateTime>
+              </Appointment>
+              <CustomerPaymentMethod />
+            </ServiceAppointmentDetail>
+          </ServiceAppointment>
+        </ProcessServiceAppointmentDataArea>
+      </ProcessServiceAppointment>
+    </Payload>
+  </soap:Body>
+</soap:Envelope>
